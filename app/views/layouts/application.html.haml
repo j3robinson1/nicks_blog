@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title NicksBlog
+    %title Nicholas Caged
     %meta{:charset => "utf-8"}
       %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
         %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
@@ -38,7 +38,7 @@
                   %h2 pic3
                   %p
           / /.carousel-inner
-          .logo Nicks Blog
+          .logo Nicholas Caged
           / Controls
           %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
             %span.glyphicon.glyphicon-chevron-left
@@ -63,25 +63,26 @@
                   %i.glyphicon.glyphicon-pencil
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#section3"}
-                  buttondropdown3
+                  %i.glyphicon.glyphicon-book
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "#"} Link1
+                    %a{:href => "#"} Chap. 1
                   %li
-                    %a{:href => "#"} Link2
+                    %a{:href => "#"} Chap. 2
                   %li
-                    %a{:href => "#"} Link3
+                    %a{:href => "#"} Chap. 3
                   %li
-                    %a{:href => "#"} Link4
+                    %a{:href => "#"} Chap. 4
                   %li
-                    %a{:href => "#"} Link5
+                    %a{:href => "#"} Chap. 5
                   %li
-                    %a{:href => "#"} Link6
+                    %a{:href => "#"} Chap. 6
+              / %li
+              /   %a{:href => "#section4"} button4
               %li
-                %a{:href => "#section4"} button4
-              %li
-                %a{:href => "#section5"} button5
+                =link_to contact_index_path do
+                  %i.glyphicon.glyphicon-user
           / /.nav-collapse
         / /.container
       / /.navbar

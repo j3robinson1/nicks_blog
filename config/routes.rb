@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
   resources :posts
+  get 'contact/index'
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
